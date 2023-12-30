@@ -97,7 +97,27 @@ click the Yes button. Execute the following command: "ssh username@servername"
 ![image](https://github.com/forza-dc/Implementing-OpenSSH-for-Secure-Remote-Communication-Comparing-Encrypted-Traffic/blob/main/Access%20Srv%20Via%20SSH.png) 
 
 
+## Step 5:
+### SSH Traffic Packets on Wireshark
 
+To analyze network packets from the client side to the server side for an SSH connection on Wireshark, the command "tcp.port == 22" will be utilized. This allows observation of all traffic via port 22. Subsequently, we'll focus on scrutinizing and contrasting the traffic specifically using protocol SSHV2. After capturing the traffic packets, we'll proceed to compare them with the previous encryption method, wherein usernames and passwords were easily visible in the logs.
+
+
+![image](https://github.com/forza-dc/Implementing-OpenSSH-for-Secure-Remote-Communication-Comparing-Encrypted-Traffic/blob/main/Wireshark%20Packets.png) 
+![image](https://github.com/forza-dc/Implementing-OpenSSH-for-Secure-Remote-Communication-Comparing-Encrypted-Traffic/blob/main/Wireshark%20Packets2.png) 
+
+
+## Step 6:       
+### Comparing the OpenSSH encryption with old encryption
+
+I have taken the some old network traffic packets from "https://packetlife.net/captures/protocol/telnet/" file named "cm4116_telnet.cap".
+
+![image](https://github.com/forza-dc/Implementing-OpenSSH-for-Secure-Remote-Communication-Comparing-Encrypted-Traffic/blob/main/Weak%20Encryption%201.png) 
+
+
+
+
+        
 
 
 
