@@ -115,10 +115,14 @@ I have taken the some old network traffic packets from "https://packetlife.net/c
 ![image](https://github.com/forza-dc/Implementing-OpenSSH-for-Secure-Remote-Communication-Comparing-Encrypted-Traffic/blob/main/Weak%20Encryption%201.png) 
 
 
-
+You can see the password and username details are not encrypted. There is no encryption, all details are shared in clear text.
+As in the below snapshot the login name is just “test” it’s not “ttessstt”, firt t in red is server and the next t in blue is client. That’s the server-client, server-client.
 
         
+Let's see the network traffic packet from OpenSSH protocol.
 
+
+![image](https://github.com/forza-dc/Implementing-OpenSSH-for-Secure-Remote-Communication-Comparing-Encrypted-Traffic/blob/main/Encrytion%20of%20Packets.png) 
 
 
 
