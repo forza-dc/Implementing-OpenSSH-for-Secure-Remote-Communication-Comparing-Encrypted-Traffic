@@ -1,4 +1,4 @@
-# Implementing OpenSSH for Secure Remote Communication: Comparing Encrypted Traffic
+# 👨🏻‍💻 🌎 🔐 Implementing OpenSSH for Secure Remote Communication: Comparing Encrypted Traffic 👨🏻‍💻 🌎 🔐
 
 ## Project Overview
 
@@ -123,6 +123,8 @@ Let's see the network traffic packet from OpenSSH protocol.
 
 
 ![image](https://github.com/forza-dc/Implementing-OpenSSH-for-Secure-Remote-Communication-Comparing-Encrypted-Traffic/blob/main/Encrytion%20of%20Packets.png) 
+
+👨🏻‍💻 🚀 In summary, using OpenSSH for secure remote connections proves its strength by protecting data better than older methods like Telnet. This project shows how important OpenSSH is for modern security practices in keeping information safe during remote access. 👨🏻‍💻 🚀
 
 
 
